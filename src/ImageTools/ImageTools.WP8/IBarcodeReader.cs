@@ -13,9 +13,7 @@ namespace ImageTools
     /// <summary>
     /// Base interface for all barcode readers.
     /// </summary>
-#if !WINDOWS_PHONE
     [ContractClass(typeof(IBarcodeReaderContract))]
-#endif
     public interface IBarcodeReader
     {
         /// <summary>

@@ -13,9 +13,7 @@ namespace ImageTools
     /// <summary>
     /// Interface for all image resizing algorithms.
     /// </summary>
-#if !WINDOWS_PHONE
     [ContractClass(typeof(IImageResizerContract))]
-#endif
     public interface IImageResizer
     {
         /// <summary>

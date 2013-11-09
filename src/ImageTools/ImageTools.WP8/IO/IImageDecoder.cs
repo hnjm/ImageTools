@@ -15,9 +15,7 @@ namespace ImageTools.IO
     /// <summary>
     /// Interface for image decoders for loading images from streams.
     /// </summary>
-#if !WINDOWS_PHONE
     [ContractClass(typeof(IImageDecoderContract))]
-#endif
     public interface IImageDecoder
     {
         /// <summary>

@@ -16,9 +16,7 @@ namespace ImageTools
     /// <remarks>The interface defines the set of methods, which should be
     /// provided by all image processing filters. Methods of this interface
     /// manipulate the original image.</remarks>
-#if !WINDOWS_PHONE
     [ContractClass(typeof(IImageFilterContract))]
-#endif
     public interface IImageFilter
     {
         /// <summary>
